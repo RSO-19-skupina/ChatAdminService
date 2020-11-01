@@ -18,3 +18,9 @@
 - Chat history
 - Send gumb za chat
 - ...
+
+## Sites
+
+- Landing page
+- Playing page
+
