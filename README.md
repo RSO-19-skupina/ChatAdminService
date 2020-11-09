@@ -22,5 +22,5 @@
 ## Sites
 
 - Landing page
-- Playing page
+- Playing page 
 
