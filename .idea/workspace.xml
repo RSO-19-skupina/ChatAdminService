@@ -16,12 +16,19 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e305fe6-6191-4fb4-b280-2484cef10168" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +42,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jeiB4eqJJothW37zZwRcAjlFgL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,6 +59,19 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +83,7 @@
       <workItem from="1604170820090" duration="658000" />
       <workItem from="1604226790706" duration="1353000" />
       <workItem from="1604920579969" duration="7000" />
-      <workItem from="1604937543785" duration="8000" />
+      <workItem from="1604937543785" duration="745000" />
     </task>
     <servers />
   </component>
@@ -72,7 +95,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -84,5 +119,9 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="805" y="311" key="FileChooserDialogImpl/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1604920585887" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1604937574892">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1604937574892" />
   </component>
 </project>
