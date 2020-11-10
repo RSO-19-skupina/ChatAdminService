@@ -1,0 +1,17 @@
+kumuluzee:
+  name: chatplays-service
+  env:
+    name: dev
+  version: 1.0.0
+  server:
+    base-url: http://localhost:8080
+    http:
+      port: 8080
+  datasources:
+    - jndi-name: jdbc/ChatPlaysDS
+      connection-url: jdbc:postgresql://192.168.29.109:5432/chatplays
+      username: dbuser
+      password: postgres
+      max-pool-size: 20
+rest-properties:
+  maintenance-mode: false

@@ -1,0 +1,1 @@
+INSERT INTO user_metadata (username, created) VALUES ('Toasts', TIMESTAMP '2006-01-01 15:36:38');

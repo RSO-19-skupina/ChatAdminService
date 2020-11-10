@@ -22,10 +22,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41fc4b41-51d5-443f-9f9c-62baca5d99a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+    <list default="true" id="a108cddc-16fd-4716-9df8-12f5b72e9efc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/sk19/api/v1/ChatPlaysApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/sk19/api/v1/dtos/ApiError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/sk19/api/v1/resources/ChatPlaysResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/sk19/models/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +70,8 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1k6cZcDk2EZ5cEEZRVYhpx4JC2y" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectId" id="1k6ulp15yj72XQ5CxHH23SEHHMD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -62,42 +80,32 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\venog\Desktop\Faks\ChatPlays" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\venog\Desktop\ChatPlays\models\src\main\resources" />
+      <recent name="C:\Users\venog\Desktop\ChatPlays\services\src\main\resources" />
+      <recent name="C:\Users\venog\Desktop\ChatPlays\api\src\main\resources" />
+      <recent name="C:\Users\venog\Desktop\ChatPlays" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="41fc4b41-51d5-443f-9f9c-62baca5d99a9" name="Default Changelist" comment="" />
-      <created>1605024540068</created>
+      <changelist id="a108cddc-16fd-4716-9df8-12f5b72e9efc" name="Default Changelist" comment="" />
+      <created>1605033515657</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605024540068</updated>
-      <workItem from="1605024541150" duration="70000" />
-      <workItem from="1605024645541" duration="95000" />
+      <updated>1605033515657</updated>
+      <workItem from="1605033516777" duration="383000" />
+      <workItem from="1605033946134" duration="2262000" />
+      <workItem from="1605036351732" duration="530000" />
+      <workItem from="1605037010165" duration="126000" />
+      <workItem from="1605037449306" duration="2048000" />
     </task>
     <servers />
   </component>
@@ -114,11 +122,52 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="505" y="131" key="#Project_Structure" timestamp="1605024730021">
+    <state x="462" y="398" key="#SQL_Dialects" timestamp="1605035708668">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="505" y="131" key="#Project_Structure/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605024730021" />
+    <state x="462" y="398" key="#SQL_Dialects/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605035708668" />
+    <state x="640" y="134" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605037998910">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="640" y="134" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605037998910" />
+    <state x="830" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1605037897746">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="830" y="240" key="#com.intellij.ide.util.MemberChooser/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605037897746" />
+    <state x="892" y="374" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605037045181">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="892" y="374" key="#com.intellij.ide.util.TreeClassChooserDialog/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605037045181" />
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1605034012106">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="805" y="311" key="FileChooserDialogImpl/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605034012106" />
+    <state x="605" y="299" key="IDE.errors.dialog" timestamp="1605033554388">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="605" y="299" key="IDE.errors.dialog/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605033554388" />
+    <state x="555" y="211" key="Maven.ArtifactSearchDialog" timestamp="1605034644914">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="555" y="211" key="Maven.ArtifactSearchDialog/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605034644914" />
+    <state x="734" y="155" width="579" height="801" key="find.popup" timestamp="1605035161279">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="734" y="155" width="579" height="801" key="find.popup/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605035161279" />
+    <state x="465" y="217" key="new project wizard" timestamp="1605036510878">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="465" y="217" key="new project wizard/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605036510878" />
+    <state x="681" y="259" key="run.anything.popup" timestamp="1605035130271">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="681" y="259" key="run.anything.popup/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605035130271" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1605035207783">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605035207783" />
   </component>
 </project>
