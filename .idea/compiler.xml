@@ -9,7 +9,13 @@
         <module name="models" />
         <module name="api" />
         <module name="services" />
+        <module name="chatplays-services" />
+        <module name="chatplays-models" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="models" target="14" />
+      <module name="services" target="14" />
+    </bytecodeTargetLevel>
   </component>
 </project>

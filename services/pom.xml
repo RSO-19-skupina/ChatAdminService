@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>services</artifactId>
+    <artifactId>chatplays-services</artifactId>
 
     <dependencies>
         <dependency>
@@ -40,7 +40,7 @@
 
         <dependency>
             <groupId>si.fri.rso.sk19</groupId>
-            <artifactId>models</artifactId>
+            <artifactId>chatplays-models</artifactId>
         </dependency>
 
     </dependencies>

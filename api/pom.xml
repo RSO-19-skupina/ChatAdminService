@@ -10,7 +10,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>api</artifactId>
+    <artifactId>chatplays-api</artifactId>
 
     <dependencies>
         <dependency>
@@ -25,7 +25,7 @@
 
         <dependency>
             <groupId>si.fri.rso.sk19</groupId>
-            <artifactId>services</artifactId>
+            <artifactId>chatplays-services</artifactId>
         </dependency>
     </dependencies>
 
