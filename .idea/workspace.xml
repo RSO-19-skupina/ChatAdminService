@@ -23,8 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a108cddc-16fd-4716-9df8-12f5b72e9efc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile_with_maven_build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/config.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +71,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\venog\Desktop\ChatPlays" />
       <recent name="C:\Users\venog\Desktop\ChatPlays\models\src\main\resources" />
       <recent name="C:\Users\venog\Desktop\ChatPlays\services\src\main\resources" />
       <recent name="C:\Users\venog\Desktop\ChatPlays\api\src\main\resources" />
-      <recent name="C:\Users\venog\Desktop\ChatPlays" />
     </key>
   </component>
   <component name="RunManager">
@@ -102,6 +105,7 @@
       <workItem from="1605036351732" duration="530000" />
       <workItem from="1605037010165" duration="126000" />
       <workItem from="1605037449306" duration="2048000" />
+      <workItem from="1605116333667" duration="1620000" />
     </task>
     <servers />
   </component>

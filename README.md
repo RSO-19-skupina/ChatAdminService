@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/RSO-19-skupina/ChatPlays.svg?branch=main)](https://travis-ci.org/github/RSO-19-skupina/ChatPlays)
+
 # ChatPlays
 
 ## Entitete
