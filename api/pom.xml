@@ -12,7 +12,7 @@
 
     <artifactId>chatplays-api</artifactId>
 
-    <dependencies>
+    <dependencies> <!-- Moduli, ki jih želimo vključit v aplikacijo -->
         <dependency>
             <groupId>com.kumuluz.ee</groupId>
             <artifactId>kumuluzee-core</artifactId>
@@ -27,7 +27,6 @@
             <groupId>si.fri.rso.sk19</groupId>
             <artifactId>chatplays-services</artifactId>
         </dependency>
-
     </dependencies>
 
     <build>

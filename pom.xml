@@ -8,6 +8,7 @@
     <artifactId>chatplays</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
+
     <modules>
         <module>api</module>
         <module>services</module>
@@ -26,7 +27,7 @@
         <postgresql.version>42.2.13</postgresql.version>
     </properties>
 
-    <dependencyManagement>
+    <dependencyManagement> <!-- Seznam virov -->
         <dependencies>
             <dependency>
                 <groupId>com.kumuluz.ee</groupId>
