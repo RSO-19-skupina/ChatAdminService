@@ -2,6 +2,10 @@
 
 # ChatPlays
 
+## Docker run command for PostgreSQL
+
+docker run -d --name pg-chatplays -e POSTGRES_USER=dbuser -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=chatplays -p 5432:5432 postgres:13
+
 ## Entitete
 
 - User (Random, ki piše v chat)

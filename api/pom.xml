@@ -27,6 +27,7 @@
             <groupId>si.fri.rso.sk19</groupId>
             <artifactId>chatplays-services</artifactId>
         </dependency>
+
     </dependencies>
 
     <build>

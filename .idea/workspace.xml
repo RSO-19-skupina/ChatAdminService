@@ -23,9 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a108cddc-16fd-4716-9df8-12f5b72e9efc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/chatplays-deployment.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/config.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +64,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -104,7 +110,16 @@
       <workItem from="1605037010165" duration="126000" />
       <workItem from="1605037449306" duration="2048000" />
       <workItem from="1605116333667" duration="3049000" />
-      <workItem from="1605174307235" duration="225000" />
+      <workItem from="1605174307235" duration="8512000" />
+      <workItem from="1605214178376" duration="1323000" />
+      <workItem from="1605215513030" duration="524000" />
+      <workItem from="1605216059874" duration="741000" />
+      <workItem from="1605221656185" duration="984000" />
+      <workItem from="1605222747294" duration="305000" />
+      <workItem from="1605223090011" duration="1473000" />
+      <workItem from="1605253901040" duration="537000" />
+      <workItem from="1605254454290" duration="997000" />
+      <workItem from="1605270103248" duration="1241000" />
     </task>
     <servers />
   </component>
@@ -128,10 +143,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="462" y="398" key="#SQL_Dialects/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605035708668" />
-    <state x="640" y="134" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605037998910">
+    <state x="58" y="126" width="1089" height="761" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605214528139">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="640" y="134" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605037998910" />
+    <state x="58" y="126" width="1089" height="761" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605214528139" />
     <state x="830" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1605037897746">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -140,10 +155,26 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="892" y="374" key="#com.intellij.ide.util.TreeClassChooserDialog/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605037045181" />
-    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1605034012106">
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1605215567837">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="805" y="311" key="FileChooserDialogImpl/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605034012106" />
+    <state x="805" y="311" key="FileChooserDialogImpl/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605215567837" />
+    <state width="1382" height="503" key="GridCell.Tab.0.bottom" timestamp="1605182316077">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1382" height="503" key="GridCell.Tab.0.bottom/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605182316077" />
+    <state width="1382" height="503" key="GridCell.Tab.0.center" timestamp="1605182316077">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1382" height="503" key="GridCell.Tab.0.center/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605182316077" />
+    <state width="1382" height="503" key="GridCell.Tab.0.left" timestamp="1605182316077">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1382" height="503" key="GridCell.Tab.0.left/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605182316077" />
+    <state width="1382" height="503" key="GridCell.Tab.0.right" timestamp="1605182316077">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1382" height="503" key="GridCell.Tab.0.right/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605182316077" />
     <state x="605" y="299" key="IDE.errors.dialog" timestamp="1605033554388">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -152,10 +183,15 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="555" y="211" key="Maven.ArtifactSearchDialog/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605034644914" />
-    <state x="734" y="155" width="579" height="801" key="find.popup" timestamp="1605035161279">
+    <state x="492" y="178" width="1160" height="710" key="SettingsEditor" timestamp="1605254441326">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="734" y="155" width="579" height="801" key="find.popup/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605035161279" />
+    <state x="492" y="178" key="SettingsEditor/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605254441326" />
+    <state x="3021" y="274" width="1160" height="710" key="SettingsEditor/2560.109.1920.1030/0.0.2048.1112@2560.109.1920.1030" timestamp="1605223183371" />
+    <state x="734" y="155" width="579" height="801" key="find.popup" timestamp="1605187694540">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="734" y="155" width="579" height="801" key="find.popup/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605187694540" />
     <state x="465" y="217" key="new project wizard" timestamp="1605036510878">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
