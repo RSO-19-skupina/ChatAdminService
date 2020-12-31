@@ -1,32 +1,34 @@
 package si.fri.rso.sk19.models.entities;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import java.time.Instant;
+import javax.persistence.*;
+import java.io.Serializable;
 
-public class User {
+@Entity
+@Table(name = "users")
+@NamedQueries(value = {
+        @NamedQuery(name = "User.getAll", query = "SELECT e FROM User e"),
+        @NamedQuery(name = "User.getByUsername", query = "SELECT e FROM User e WHERE e.username = :username")
+})
+
+public class User implements Serializable {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Integer user_id;
 
-    @Column(name = "username")
+    @Column(name = "username", unique = true)
     private String username;
 
-    @Column(name = "created")
-    private Instant created;
+    public Integer getId() {
+        return user_id;
+    }
 
-    public Integer getId(){
-        return id;
+    public void setId(Integer user_id) {
+        this.user_id = user_id;
     }
 
     public String getUsername() {
         return username;
-    }
-
-    public void setId(Integer id){
-        this.id = id;
     }
 
     public void setUsername(String username) {

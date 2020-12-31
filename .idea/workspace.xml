@@ -23,11 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a108cddc-16fd-4716-9df8-12f5b72e9efc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/services/src/main/java/si/fri/rso/sk19/services/beans/AdminBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/sk19/api/v1/ChatPlaysApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/sk19/api/v1/ChatAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/sk19/api/v1/resources/ChatPlaysResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/sk19/api/v1/resources/ChatAdminResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/models/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/sk19/models/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/sk19/models/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +74,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rso-image-catalog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -83,18 +94,20 @@
   <component name="RunManager" selected="Application.EeApplication">
     <configuration name="EeApplication" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.kumuluz.ee.EeApplication" />
-      <module name="api" />
+      <module name="chat-admin-api" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,6 +160,7 @@
       <workItem from="1605253901040" duration="537000" />
       <workItem from="1605254454290" duration="997000" />
       <workItem from="1605270103248" duration="7505000" />
+      <workItem from="1609408474127" duration="2142000" />
     </task>
     <servers />
   </component>
@@ -166,13 +180,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1609409026829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609409026829" />
     <state x="462" y="398" key="#SQL_Dialects" timestamp="1605035708668">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="462" y="398" key="#SQL_Dialects/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605035708668" />
-    <state x="2884" y="185" width="1021" height="801" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605286638038">
-      <screen x="2560" y="109" width="1920" height="1030" />
+    <state x="324" y="77" width="1021" height="833" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609409386871">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="324" y="77" width="1021" height="833" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609409386871" />
     <state x="58" y="126" width="1089" height="761" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605214528139" />
     <state x="2884" y="185" width="1021" height="801" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.109.1920.1030/0.0.2048.1112@2560.109.1920.1030" timestamp="1605286638038" />
     <state x="830" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1605037897746">
@@ -193,24 +212,28 @@
     </state>
     <state x="805" y="311" key="FileChooserDialogImpl/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605215567837" />
     <state x="3315" y="397" key="FileChooserDialogImpl/2560.109.1920.1030/0.0.2048.1112@2560.109.1920.1030" timestamp="1605282524657" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605286828282">
-      <screen x="2560" y="109" width="1920" height="1030" />
+    <state width="907" height="274" key="GridCell.Tab.0.bottom" timestamp="1609412379944">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="907" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609412379944" />
     <state width="1382" height="503" key="GridCell.Tab.0.bottom/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605182316077" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/2560.109.1920.1030/0.0.2048.1112@2560.109.1920.1030" timestamp="1605286828282" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605286828282">
-      <screen x="2560" y="109" width="1920" height="1030" />
+    <state width="907" height="274" key="GridCell.Tab.0.center" timestamp="1609412379943">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="907" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609412379943" />
     <state width="1382" height="503" key="GridCell.Tab.0.center/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605182316077" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/2560.109.1920.1030/0.0.2048.1112@2560.109.1920.1030" timestamp="1605286828282" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605286828282">
-      <screen x="2560" y="109" width="1920" height="1030" />
+    <state width="907" height="274" key="GridCell.Tab.0.left" timestamp="1609412379943">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="907" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609412379943" />
     <state width="1382" height="503" key="GridCell.Tab.0.left/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605182316077" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/2560.109.1920.1030/0.0.2048.1112@2560.109.1920.1030" timestamp="1605286828282" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605286828282">
-      <screen x="2560" y="109" width="1920" height="1030" />
+    <state width="907" height="274" key="GridCell.Tab.0.right" timestamp="1609412379943">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="907" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609412379943" />
     <state width="1382" height="503" key="GridCell.Tab.0.right/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605182316077" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/2560.109.1920.1030/0.0.2048.1112@2560.109.1920.1030" timestamp="1605286828282" />
     <state x="605" y="299" key="IDE.errors.dialog" timestamp="1605033554388">
@@ -226,6 +249,10 @@
     </state>
     <state x="492" y="178" key="SettingsEditor/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605254441326" />
     <state x="3021" y="274" width="1160" height="710" key="SettingsEditor/2560.109.1920.1030/0.0.2048.1112@2560.109.1920.1030" timestamp="1605223183371" />
+    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609409414630">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609409414630" />
     <state x="734" y="155" width="579" height="801" key="find.popup" timestamp="1605187694540">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

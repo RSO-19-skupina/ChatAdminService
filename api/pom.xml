@@ -3,14 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>chatplays</artifactId>
+        <artifactId>chat-admin</artifactId>
         <groupId>si.fri.rso.sk19</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>chatplays-api</artifactId>
+    <artifactId>chat-admin-api</artifactId>
 
     <dependencies> <!-- Moduli, ki jih želimo vključit v aplikacijo -->
         <dependency>
@@ -24,8 +24,18 @@
         </dependency>
 
         <dependency>
+            <groupId>com.kumuluz.ee.health</groupId>
+            <artifactId>kumuluzee-health</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.kumuluz.ee.logs</groupId>
+            <artifactId>kumuluzee-logs-log4j2</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>si.fri.rso.sk19</groupId>
-            <artifactId>chatplays-services</artifactId>
+            <artifactId>chat-admin-services</artifactId>
         </dependency>
     </dependencies>
 

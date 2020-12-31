@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="models" />
+        <module name="chat-admin-models" />
         <module name="api" />
         <module name="services" />
-        <module name="chatplays-services" />
-        <module name="chatplays-models" />
+        <module name="chat-admin-api" />
+        <module name="chat-admin-services" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
