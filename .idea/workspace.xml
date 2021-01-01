@@ -23,18 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a108cddc-16fd-4716-9df8-12f5b72e9efc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/services/src/main/java/si/fri/rso/sk19/services/beans/AdminBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/sk19/api/v1/ChatPlaysApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/sk19/api/v1/ChatAdminApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/sk19/api/v1/resources/ChatPlaysResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/sk19/api/v1/resources/ChatAdminResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/sk19/api/v1/ChatAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/sk19/api/v1/ChatAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/sk19/api/v1/resources/ChatAdminResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/sk19/api/v1/resources/ChatAdminResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/models/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/sk19/models/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/sk19/models/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/src/main/java/si/fri/rso/sk19/services/beans/AdminBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/src/main/java/si/fri/rso/sk19/services/beans/AdminBean.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,19 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -160,7 +142,9 @@
       <workItem from="1605253901040" duration="537000" />
       <workItem from="1605254454290" duration="997000" />
       <workItem from="1605270103248" duration="7505000" />
-      <workItem from="1609408474127" duration="2142000" />
+      <workItem from="1609408474127" duration="5025000" />
+      <workItem from="1609429331850" duration="2825000" />
+      <workItem from="1609533824660" duration="1638000" />
     </task>
     <servers />
   </component>
@@ -212,28 +196,28 @@
     </state>
     <state x="805" y="311" key="FileChooserDialogImpl/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605215567837" />
     <state x="3315" y="397" key="FileChooserDialogImpl/2560.109.1920.1030/0.0.2048.1112@2560.109.1920.1030" timestamp="1605282524657" />
-    <state width="907" height="274" key="GridCell.Tab.0.bottom" timestamp="1609412379944">
+    <state width="914" height="409" key="GridCell.Tab.0.bottom" timestamp="1609535708166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="907" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609412379944" />
+    <state width="914" height="409" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609535708166" />
     <state width="1382" height="503" key="GridCell.Tab.0.bottom/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605182316077" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/2560.109.1920.1030/0.0.2048.1112@2560.109.1920.1030" timestamp="1605286828282" />
-    <state width="907" height="274" key="GridCell.Tab.0.center" timestamp="1609412379943">
+    <state width="914" height="409" key="GridCell.Tab.0.center" timestamp="1609535708165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="907" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609412379943" />
+    <state width="914" height="409" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609535708165" />
     <state width="1382" height="503" key="GridCell.Tab.0.center/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605182316077" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/2560.109.1920.1030/0.0.2048.1112@2560.109.1920.1030" timestamp="1605286828282" />
-    <state width="907" height="274" key="GridCell.Tab.0.left" timestamp="1609412379943">
+    <state width="914" height="409" key="GridCell.Tab.0.left" timestamp="1609535708165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="907" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609412379943" />
+    <state width="914" height="409" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609535708165" />
     <state width="1382" height="503" key="GridCell.Tab.0.left/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605182316077" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/2560.109.1920.1030/0.0.2048.1112@2560.109.1920.1030" timestamp="1605286828282" />
-    <state width="907" height="274" key="GridCell.Tab.0.right" timestamp="1609412379943">
+    <state width="914" height="409" key="GridCell.Tab.0.right" timestamp="1609535708166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="907" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609412379943" />
+    <state width="914" height="409" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609535708166" />
     <state width="1382" height="503" key="GridCell.Tab.0.right/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605182316077" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/2560.109.1920.1030/0.0.2048.1112@2560.109.1920.1030" timestamp="1605286828282" />
     <state x="605" y="299" key="IDE.errors.dialog" timestamp="1605033554388">
@@ -253,9 +237,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609409414630" />
-    <state x="734" y="155" width="579" height="801" key="find.popup" timestamp="1605187694540">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="549" y="99" width="555" height="750" key="find.popup" timestamp="1609534302992">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="549" y="99" width="555" height="750" key="find.popup/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609534302992" />
     <state x="734" y="155" width="579" height="801" key="find.popup/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605187694540" />
     <state x="465" y="217" key="new project wizard" timestamp="1605036510878">
       <screen x="0" y="0" width="2048" height="1112" />
@@ -269,5 +254,16 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605035207783" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/si/fri/rso/sk19/api/v1/resources/ChatAdminResource.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

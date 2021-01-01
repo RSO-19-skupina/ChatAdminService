@@ -6,10 +6,7 @@ import si.fri.rso.sk19.services.beans.AdminBean;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
-import javax.ws.rs.Consumes;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.List;
@@ -26,6 +23,18 @@ public class ChatAdminResource {
     @GET
     public Response getAllUsers(){
         List<User> users = adminBean.getAllUsers();
+        System.out.println(users);
         return Response.ok(users).build();
+    }
+
+    @DELETE
+    @Path("{user_id}")
+    public Response deleteUser(@PathParam("user_id") Integer user_id){
+        if(adminBean.deleteUser(user_id)){
+            return Response.status(Response.Status.NO_CONTENT).build();
+        }
+        else {
+            return Response.status(Response.Status.NOT_FOUND).build();
+        }
     }
 }

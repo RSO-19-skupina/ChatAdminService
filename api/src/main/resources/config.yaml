@@ -15,3 +15,46 @@ kumuluzee:
       pool:
         connection-timeout: 30000
         max-size: 10
+  health:
+    checks:
+      data-source-health-check:
+        type: liveness
+        jndi-name: jdbc/ChatPlaysUsersDS
+  metrics:
+    web-instrumentation:
+      - name: users-endpoint
+        url-pattern: /v1/admin/*
+  logs:
+    config-file: '<?xml version="1.0" encoding="UTF-8"?>
+                        <Configuration name="comments">
+                            <Appenders>
+                                <Console name="console" target="SYSTEM_OUT">
+                                    <PatternLayout pattern="%d %p %marker %m %X %ex %n"/>
+                                </Console>
+                                <Socket name="logstash" host="34b6064b-d2b2-488c-89b1-998719a64e2e-ls.logit.io"
+                                port="18380" protocol="udp">
+                                    <JSONLayout complete="false" compact="true" eventEol="true" charset="UTF-8" properties="true"/>
+                                </Socket>
+                            </Appenders>
+                            <Loggers>
+                                <!-- Default logger -->
+                                <Root level="all">
+                                    <AppenderRef ref="console" level="info" />
+                                    <AppenderRef ref="logstash" level="trace" />
+                                </Root>
+                            </Loggers>
+                        </Configuration>'
+
+  cors-filter:
+    annotations:
+      my-resource:
+        allow-origin: "http://localhost:4200/*"
+        allow-subdomains: true
+        supported-methods: "GET, POST, DELETE, HEAD, OPTIONS, PUT"
+  jwt-auth:
+    public-key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnOTgnGBISzm3pKuG8QXMVm6eEuTZx8Wqc8D9gy7vArzyE5QC/bVJNFwlz...
+    issuer: http://51.105.205.216/api/v1/users
+
+rest-properties:
+  maintenance-mode: false
+  broken: false

@@ -32,4 +32,41 @@ public class AdminBean {
         TypedQuery<User> query = em.createNamedQuery("User.getAll", User.class);
         return query.getResultList();
     }
+
+    public boolean deleteUser(Integer user_id){
+
+        User user = em.find(User.class, user_id);
+        dbCounter.inc();
+        if (user != null){
+            try{
+                beginTx();
+                em.remove(user);
+                commitTx();
+            } catch(Exception e){
+                rollbackTx();
+            }
+        } else{
+            return false;
+        }
+        userCounter.dec();
+        return true;
+    }
+
+    private void beginTx() {
+        if (!em.getTransaction().isActive()) {
+            em.getTransaction().begin();
+        }
+    }
+
+    private void commitTx() {
+        if (em.getTransaction().isActive()) {
+            em.getTransaction().commit();
+        }
+    }
+
+    private void rollbackTx() {
+        if (em.getTransaction().isActive()) {
+            em.getTransaction().rollback();
+        }
+    }
 }
