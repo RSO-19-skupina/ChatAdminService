@@ -29,7 +29,7 @@ public class FilterAdminResource {
         List<User> users = adminBean.getAllUsers();
         List<User> filtered = new ArrayList<>();
         for(User user : users){
-            System.out.println(user.getUsername());
+            //System.out.println(user.getUsername());
             if(user.getUsername().equals(username)){
                 filtered.add(user);
                 return Response.ok(filtered).build();

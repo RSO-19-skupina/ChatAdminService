@@ -7,7 +7,8 @@ import java.io.Serializable;
 @Table(name = "users")
 @NamedQueries(value = {
         @NamedQuery(name = "User.getAll", query = "SELECT e FROM User e"),
-        @NamedQuery(name = "User.getByUsername", query = "SELECT e FROM User e WHERE e.username = :username")
+        @NamedQuery(name = "User.getByUsername", query = "SELECT e FROM User e WHERE e.username = :username"),
+        @NamedQuery(name = "User.getByRole", query = "SELECT e FROM User e WHERE e.role = :role")
 })
 
 public class User implements Serializable {
@@ -18,6 +19,9 @@ public class User implements Serializable {
 
     @Column(name = "username", unique = true)
     private String username;
+
+    @Column(name = "role")
+    private String role;
 
     public Integer getId() {
         return user_id;
@@ -33,5 +37,13 @@ public class User implements Serializable {
 
     public void setUsername(String username) {
         this.username = username;
+    }
+
+    public void setRole(String role){
+        this.role = role;
+    }
+
+    public String getRole(){
+        return this.role;
     }
 }

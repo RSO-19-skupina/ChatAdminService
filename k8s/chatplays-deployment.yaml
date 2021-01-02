@@ -13,7 +13,7 @@ spec:
         app: chat-admin
     spec:
       containers:
-        - image: venoexe/chat-admin:2020-11-12-17-50-02
+        - image: venoexe/chat-admin:1.0.0-SNAPSHOT-15.1
           name: chat-admin
           env:
             - name: KUMULUZEE_DATASOURCES0_CONNECTIONURL
