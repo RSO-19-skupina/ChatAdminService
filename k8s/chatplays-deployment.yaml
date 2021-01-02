@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: chatplays-deployment
+  name: chat-admin-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: chatplays
+      app: chat-admin
   template:
     metadata:
       labels:
-        app: chatplays
+        app: chat-admin
     spec:
       containers:
-        - image: venoexe/chatplays:2020-11-12-17-50-02
-          name: chatplays
+        - image: venoexe/chat-admin:2020-11-12-17-50-02
+          name: chat-admin
           env:
             - name: KUMULUZEE_DATASOURCES0_CONNECTIONURL
               value: postgres://kandula.db.elephantsql.com:5432/kbrnjtfi
@@ -34,7 +34,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: chatplays
+  name: chat-admin
 spec:
   type: LoadBalancer
   ports:
@@ -42,4 +42,4 @@ spec:
       protocol: TCP
       targetPort: server
   selector:
-    app: chatplays
+    app: chat-admin

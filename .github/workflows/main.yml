@@ -36,5 +36,5 @@ jobs:
         with:
           file: ./Dockerfile_with_maven_build
           push: true
-          tags: venoexe/chatplays:${{ steps.time.outputs.time }}
+          tags: venoexe/chat-admin:${{ steps.time.outputs.time }}
 

@@ -6,6 +6,6 @@ RUN mvn clean package -U
 FROM adoptopenjdk:14-jre-hotspot
 RUN mkdir /app
 WORKDIR /app
-COPY --from=build ./app/api/target/chatplays-api-1.0.0-SNAPSHOT.jar /app
+COPY --from=build ./app/api/target/chat-admin-api-1.0.0-SNAPSHOT.jar /app
 EXPOSE 8080
-CMD ["java", "-jar", "chatplays-api-1.0.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "chat-admin-api-1.0.0-SNAPSHOT.jar"]
