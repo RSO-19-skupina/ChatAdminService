@@ -1,5 +1,5 @@
 kumuluzee:
-  name: chat-users-service
+  name: chat-admin-service
   env:
     name: dev
   version: 1.0.0
@@ -24,6 +24,8 @@ kumuluzee:
     web-instrumentation:
       - name: users-endpoint
         url-pattern: /v1/admin/*
+      - name: filter-endpoint
+        url-pattern: /v1/filter/*
   logs:
     config-file: '<?xml version="1.0" encoding="UTF-8"?>
                         <Configuration name="comments">
@@ -51,9 +53,6 @@ kumuluzee:
         allow-origin: "http://localhost:4200/*"
         allow-subdomains: true
         supported-methods: "GET, POST, DELETE, HEAD, OPTIONS, PUT"
-  jwt-auth:
-    public-key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnOTgnGBISzm3pKuG8QXMVm6eEuTZx8Wqc8D9gy7vArzyE5QC/bVJNFwlz...
-    issuer: http://51.105.205.216/api/v1/users
 
 rest-properties:
   maintenance-mode: false

@@ -20,13 +20,6 @@ public class ChatAdminResource {
     @Inject
     private AdminBean adminBean;
 
-    @GET
-    public Response getAllUsers(){
-        List<User> users = adminBean.getAllUsers();
-        System.out.println(users);
-        return Response.ok(users).build();
-    }
-
     @DELETE
     @Path("{user_id}")
     public Response deleteUser(@PathParam("user_id") Integer user_id){
@@ -36,5 +29,11 @@ public class ChatAdminResource {
         else {
             return Response.status(Response.Status.NOT_FOUND).build();
         }
+    }
+
+    @GET
+    public Response getAllUsers(){
+        List<User> users = adminBean.getAllUsers();
+        return Response.ok(users).build();
     }
 }
