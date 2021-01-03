@@ -23,6 +23,9 @@ public class User implements Serializable {
     @Column(name = "role")
     private String role;
 
+    @Column(name = "highscore")
+    private Integer highscore;
+
     public Integer getId() {
         return user_id;
     }
@@ -45,5 +48,13 @@ public class User implements Serializable {
 
     public String getRole(){
         return this.role;
+    }
+
+    public void setHighscore(Integer highscore){
+        this.highscore = highscore;
+    }
+
+    public Integer getHighscore(){
+        return this.highscore;
     }
 }
