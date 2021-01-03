@@ -24,8 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a108cddc-16fd-4716-9df8-12f5b72e9efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ChatFrontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -145,7 +143,8 @@
       <workItem from="1609670527611" duration="1050000" />
       <workItem from="1609671651878" duration="630000" />
       <workItem from="1609694913531" duration="3392000" />
-      <workItem from="1609707615923" duration="41000" />
+      <workItem from="1609707615923" duration="70000" />
+      <workItem from="1609708215466" duration="41000" />
     </task>
     <servers />
   </component>
