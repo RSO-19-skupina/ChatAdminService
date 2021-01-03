@@ -24,7 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a108cddc-16fd-4716-9df8-12f5b72e9efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +81,21 @@
       <recent name="C:\Users\venog\Desktop\ChatPlays\api\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EeApplication">
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="EeApplication" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.kumuluz.ee.EeApplication" />
       <module name="chat-admin-api" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,7 +156,7 @@
       <workItem from="1609671651878" duration="630000" />
       <workItem from="1609694913531" duration="3392000" />
       <workItem from="1609707615923" duration="70000" />
-      <workItem from="1609708215466" duration="754000" />
+      <workItem from="1609708215466" duration="1633000" />
     </task>
     <servers />
   </component>
