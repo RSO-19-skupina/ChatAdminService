@@ -24,8 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a108cddc-16fd-4716-9df8-12f5b72e9efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s/chatplays-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/chat-admin-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/chat-admin-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/chat-admin-deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +158,7 @@
       <workItem from="1609707615923" duration="70000" />
       <workItem from="1609708215466" duration="1866000" />
       <workItem from="1609753469640" duration="780000" />
-      <workItem from="1609755213555" duration="3003000" />
+      <workItem from="1609755213555" duration="4467000" />
     </task>
     <servers />
   </component>
@@ -206,11 +205,11 @@
       <screen x="2560" y="109" width="1920" height="1030" />
     </state>
     <state x="3339" y="320" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/2560.109.1920.1030/0.0.2048.1112@2560.109.1920.1030" timestamp="1605282123490" />
-    <state x="755" y="291" key="FileChooserDialogImpl" timestamp="1609707641865">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2725" y="311" key="FileChooserDialogImpl" timestamp="1609760047494">
+      <screen x="1920" y="0" width="2048" height="1112" />
     </state>
     <state x="755" y="291" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609707641865" />
-    <state x="2725" y="311" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.2048.1112@1920.0.2048.1112" timestamp="1609672262109" />
+    <state x="2725" y="311" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.2048.1112@1920.0.2048.1112" timestamp="1609760047494" />
     <state x="805" y="311" key="FileChooserDialogImpl/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605215567837" />
     <state x="3315" y="397" key="FileChooserDialogImpl/2560.109.1920.1030/0.0.2048.1112@2560.109.1920.1030" timestamp="1605282524657" />
     <state width="1545" height="441" key="GridCell.Tab.0.bottom" timestamp="1609707172533">

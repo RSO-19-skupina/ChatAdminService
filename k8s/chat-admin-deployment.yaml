@@ -13,7 +13,7 @@ spec:
         app: chatplays-admin
     spec:
       containers:
-        - image: venoexe/chat-admin:1.0.0-SNAPSHOT-25.1
+        - image: venoexe/chat-admin:2021-01-04-19-14-39
           name: chatplays-admin
           args: ["-c", "max_connections=5"]
           env:
