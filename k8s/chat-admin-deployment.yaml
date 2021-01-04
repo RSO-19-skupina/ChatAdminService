@@ -15,7 +15,6 @@ spec:
       containers:
         - image: venoexe/chat-admin:2021-01-04-19-14-39
           name: chatplays-admin
-          args: ["-c", "max_connections=5"]
           env:
             - name: KUMULUZEE_DATASOURCES0_CONNECTIONURL
               value: jdbc:postgresql://ec2-54-76-215-139.eu-west-1.compute.amazonaws.com:5432/dbo0nirf2n3u29

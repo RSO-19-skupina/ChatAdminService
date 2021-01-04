@@ -1,72 +1,61 @@
 package si.fri.rso.sk19.services.beans;
 
+import com.kumuluz.ee.discovery.annotations.DiscoverService;
 import org.eclipse.microprofile.metrics.Counter;
 import org.eclipse.microprofile.metrics.annotation.Metric;
+import org.glassfish.jersey.server.ContainerRequest;
 import si.fri.rso.sk19.models.entities.User;
 
+import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import javax.persistence.TypedQuery;
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.core.GenericType;
+import javax.ws.rs.core.Response;
 import java.util.List;
+import java.util.Optional;
 import java.util.logging.Logger;
 
 @ApplicationScoped
 public class AdminBean {
-    @PersistenceContext
-    private EntityManager em;
 
     @Inject
-    @Metric(name="usersInDB")
-    private Counter userCounter;
+    ContainerRequest request;
 
     @Inject
     @Metric(name="usersDbCall")
     private Counter dbCounter;
 
+    private Client httpClient;
+    private String usersUrl;
+
+    @PostConstruct
+    private void init(){
+        usersUrl = "http://20.73.25.179/api";
+        httpClient = ClientBuilder.newClient().register(request);
+    }
+
     private Logger log = Logger.getLogger(AdminBean.class.getName());
 
     public List<User> getAllUsers(){
-        dbCounter.inc();
-        TypedQuery<User> query = em.createNamedQuery("User.getAll", User.class);
-        return query.getResultList();
+        return httpClient
+                .target(usersUrl + "/v1/users")
+                .request()
+                .get(new GenericType<List<User>>(){});
     }
 
     public boolean deleteUser(Integer user_id){
-
-        User user = em.find(User.class, user_id);
-        dbCounter.inc();
-        if (user != null){
-            try{
-                beginTx();
-                em.remove(user);
-                commitTx();
-            } catch(Exception e){
-                rollbackTx();
-            }
+        Response response = httpClient
+                                .target(usersUrl + "/v1/users/" + user_id)
+                                .request()
+                                .delete();
+        if (response.getStatus() == 200){
+            return true;
         } else{
             return false;
         }
-        userCounter.dec();
-        return true;
     }
 
-    private void beginTx() {
-        if (!em.getTransaction().isActive()) {
-            em.getTransaction().begin();
-        }
-    }
-
-    private void commitTx() {
-        if (em.getTransaction().isActive()) {
-            em.getTransaction().commit();
-        }
-    }
-
-    private void rollbackTx() {
-        if (em.getTransaction().isActive()) {
-            em.getTransaction().rollback();
-        }
-    }
 }
