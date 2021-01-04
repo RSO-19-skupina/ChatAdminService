@@ -24,7 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a108cddc-16fd-4716-9df8-12f5b72e9efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/chatplays-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/chat-admin-deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +90,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -146,7 +158,8 @@
       <workItem from="1609694913531" duration="3392000" />
       <workItem from="1609707615923" duration="70000" />
       <workItem from="1609708215466" duration="1866000" />
-      <workItem from="1609753469640" duration="36000" />
+      <workItem from="1609753469640" duration="780000" />
+      <workItem from="1609755213555" duration="3003000" />
     </task>
     <servers />
   </component>
@@ -261,10 +274,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609409414630" />
-    <state x="549" y="99" width="555" height="750" key="find.popup" timestamp="1609605983514">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2506" y="106" width="592" height="802" key="find.popup" timestamp="1609756691561">
+      <screen x="1920" y="0" width="2048" height="1112" />
     </state>
     <state x="549" y="99" width="555" height="750" key="find.popup/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1609605983514" />
+    <state x="2506" y="106" width="592" height="802" key="find.popup/0.0.1920.1040/1920.0.2048.1112@1920.0.2048.1112" timestamp="1609756691561" />
     <state x="734" y="155" width="579" height="801" key="find.popup/2560.109.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1605187694540" />
     <state x="436" y="190" key="new project wizard" timestamp="1609670722291">
       <screen x="0" y="0" width="1920" height="1040" />

@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chatplays-admin-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: chatplays-admin
+  template:
+    metadata:
+      labels:
+        app: chatplays-admin
+    spec:
+      containers:
+        - image: venoexe/chat-admin:1.0.0-SNAPSHOT-25.1
+          name: chatplays-admin
+          args: ["-c", "max_connections=5"]
+          env:
+            - name: KUMULUZEE_DATASOURCES0_CONNECTIONURL
+              value: jdbc:postgresql://ec2-54-76-215-139.eu-west-1.compute.amazonaws.com:5432/dbo0nirf2n3u29
+            - name: KUMULUZEE_DATASOURCES0_USERNAME
+              value: gameylctqhdtvk
+            - name: KUMULUZEE_DATASOURCES0_PASSWORD
+              value: f5d1084cb838802a0afd1e9b20c9b0c25386f860a8493dd32c06eeabadfc7275
+          ports:
+            - containerPort: 8081
+              name: server
+              protocol: TCP
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: chatplays-admin
+spec:
+  type: ClusterIP
+  ports:
+    - port: 8081
+      protocol: TCP
+      targetPort: server
+  selector:
+    app: chatplays-admin

@@ -14,7 +14,7 @@ kumuluzee:
       password: f5d1084cb838802a0afd1e9b20c9b0c25386f860a8493dd32c06eeabadfc7275
       pool:
         connection-timeout: 30000
-        max-size: 10
+        max-size: 5
   health:
     checks:
       data-source-health-check:
