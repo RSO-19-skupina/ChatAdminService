@@ -17,7 +17,6 @@ import java.util.List;
 @ApplicationScoped
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
-@CrossOrigin(supportedMethods = "GET, POST, PUT, DELETE, HEAD, OPTIONS", exposedHeaders = "X-Total-Count, Content-Disposition, X-Export-Filename, Origin, X-Requested-With, Content-Type, Accept, Authorization, Access-Control-Allow-Origin")
 public class FilterAdminResource {
 
     @Inject

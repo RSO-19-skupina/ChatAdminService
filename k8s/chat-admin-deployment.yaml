@@ -13,15 +13,8 @@ spec:
         app: chatplays-admin
     spec:
       containers:
-        - image: venoexe/chat-admin:2021-01-04-19-14-39
+        - image: venoexe/chat-admin:2021-01-05-02-44-04
           name: chatplays-admin
-          env:
-            - name: KUMULUZEE_DATASOURCES0_CONNECTIONURL
-              value: jdbc:postgresql://ec2-54-76-215-139.eu-west-1.compute.amazonaws.com:5432/dbo0nirf2n3u29
-            - name: KUMULUZEE_DATASOURCES0_USERNAME
-              value: gameylctqhdtvk
-            - name: KUMULUZEE_DATASOURCES0_PASSWORD
-              value: f5d1084cb838802a0afd1e9b20c9b0c25386f860a8493dd32c06eeabadfc7275
           ports:
             - containerPort: 8081
               name: server
